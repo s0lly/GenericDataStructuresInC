@@ -32,13 +32,13 @@ GenerateStructWithGenerics
 )
 
 
-Entity *entities = malloc(sizeof(EntityArray));
+EntityArray *entities = malloc(sizeof(EntityArray));
 
 temp = (Entity){ 0 };
 temp.canMove = true;
 temp.position = (vec3) { 0.0f, 1.0f, 0.0f };
 
-Entity *spaceship = EntityArray_PushData(&gameData->entities, temp);
+Entity *spaceship = EntityArray_PushData(entities, temp);
 
 ...
 ...
@@ -52,6 +52,7 @@ for (i32 entityIndex = 0; entityIndex < entities->count; entityIndex++)
   }
 }
 
+...
 ...
 
 free(entities);
