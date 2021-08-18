@@ -16,7 +16,7 @@ Example implementation:
 ````c
 #include sGE_Define.h
 
-// The user only needs to replace "typedef struct _x_ { } _x_" with the below, where the 3rd parameter is the parentheses used
+// The user only needs to replace "typedef struct _x_ { } _x_;" with the below, where the 3rd parameter is the parentheses used
 // to describe the struct contents. As this is a fixed array, the size is predetermined - currently this is preset for all
 // Arrays of this type as one constant, with scope to generate different sized options as a future addition
 
