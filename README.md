@@ -2,7 +2,7 @@
 
 Objective:
 - ability to use data structures with full functionality on any data type
-- type safety is absolutely critical, maximum assistance in detecting / avoiding type errors
+- type safety is absolutely critical, maximum assistance in detecting / avoiding type errors, preferably at compile time / via the IDE
 - easy to understand interface, descriptive but non-verbose if possible
 - minimize overhead required by programmer to activate feature set for any particular data type
 - single header file
